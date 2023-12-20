@@ -1,0 +1,159 @@
+.wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #dadcf8;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 768px;
+}
+
+body {
+    width: 100%;
+}
+
+.contacts-section a {
+    cursor: pointer;
+}
+
+.contact-item {
+    text-decoration: none;
+}
+
+a{
+    color: black;
+
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.contact-item:hover {
+    transform: scale(1.1);
+}
+
+
+
+.language {
+    text-transform: capitalize;
+}
+
+aside {
+    width: 30%;
+    padding: 20px 40px;
+}
+
+main {
+    width: 70%;
+    padding: 20px;
+}
+
+.main-info {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.aside-info,
+.main-info {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.section-header {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+main h3.section-header {
+    margin: 0;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+}
+
+.list-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.undotted {
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.tech-skill-list,
+.soft-skill-list,
+.language-list {
+    padding-left: 20px;
+}
+
+.resume-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.p-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.resume-position {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.03em;
+    margin-bottom: 15px;
+}
+
+.project {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.possition {
+    margin: 15px 0 10px 0;
+}
+
+.work-expirience {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.educations {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding-left: 0;
+}
