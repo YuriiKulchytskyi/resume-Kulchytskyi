@@ -99,6 +99,7 @@ main h3.section-header {
 .soft-skill-list,
 .language-list {
     padding-left: 20px;
+    list-style: none;
 }
 
 .resume-name {
