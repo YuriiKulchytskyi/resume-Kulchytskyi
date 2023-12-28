@@ -98,7 +98,7 @@ main h3.section-header {
 .tech-skill-list,
 .soft-skill-list,
 .language-list {
-    padding-left: 20px;
+    padding-left: 0;
     list-style: none;
 }
 
